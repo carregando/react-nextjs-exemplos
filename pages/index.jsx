@@ -1,12 +1,13 @@
 import Title from '../src/componetes/title/Title'
+import Subtitle from '../src/componetes/subtitle/Subtitle'
 
 function HomePage () {
   return(
     <div>
-      <Title>Um titulo</Title> 
-      <p>Um paragrafo qualquer</p>
+      <Title>Um titulo</Title>
+      <Subtitle text = "Um Subtítulo"/>
       <Title>Outro titulo</Title>
-      <p>Um paragrafo qualquer</p>
+      <Subtitle text = "Outro Subtítulo"/>
     </div>
   )
 }
